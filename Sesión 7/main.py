@@ -16,3 +16,10 @@ compra = float(input("Por favor digita el valor de la compra: "))
 
 # Operadores combinados
 # Operadores de asignación =, operadores aritméticos +-*/, operadores lógicos and y, or o, not,
+# Operadores de comparación ==, !=, >, <, >=, <=,
+
+if compra > 1000:
+    descuento = compra * 0.2
+    #compra = compra - descuento # operador de asignación
+    compra -= descuento # operador de asignación compuesto
+    print(f"El descuento es de {descuento}, por lo tanto su valor a pagar es de: {compra}")
